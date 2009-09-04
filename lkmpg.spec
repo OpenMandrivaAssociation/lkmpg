@@ -1,6 +1,6 @@
 %define name lkmpg
 %define version 1.1.0
-%define release %mkrel 14
+%define release %mkrel 15
 
 Summary: The Linux Kernel Module Programming Guide 
 Name: %{name}
