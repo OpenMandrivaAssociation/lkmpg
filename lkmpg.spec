@@ -32,3 +32,31 @@ rm -rf $RPM_BUILD_ROOT
 %{_docdir}/LDP/*
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.0-16mdv2011.0
++ Revision: 620246
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.1.0-15mdv2010.0
++ Revision: 429860
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tv@mandriva.org> 1.1.0-14mdv2009.0
++ Revision: 251243
+- rebuild
+
+* Thu Jan 03 2008 Olivier Blin <oblin@mandriva.com> 1.1.0-12mdv2008.1
++ Revision: 140932
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Mon Jan 15 2007 Lenny Cartier <lenny@mandriva.com> 1.1.0-12mdv2007.0
++ Revision: 109158
+- Rebuild
+- Import lkmpg
+
